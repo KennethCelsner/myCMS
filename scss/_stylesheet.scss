@@ -1,15 +1,127 @@
+/* Setup */
+.index {
+	background: url("../img/background-cms.jpg");
+	.row {
+		padding: 20px;
+	}
+	.main-section {
+		padding-top: 0px;
+	}
+}
+
+body {
+	background: url("../img/background-sky.jpg") no-repeat bottom fixed;
+	background-size: cover;
+}
+
+.row {
+	max-width: 1080px;
+
+}
+
+.column, .columns {
+	background: none;
+}
+
+ul {
+	overflow: hidden;
+	margin-bottom: 0;
+}
+
+a, a:hover, a:active, a:focus {
+	color: #000;
+	font-style: italic;
+	color: #000;
+}
+
+.button, .button:hover, .button:focus {
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-style: normal;
+}
+
+thead, tbody {
+	background: none !important;
+	border: none !important;
+}
+
+tr {
+	background: none !important;
+	border-bottom: 1px solid;
+}
+
+
+/* Index choose page */
+.choose-page {
+	text-decoration: underline;
+}
+
+.sign-btns .button {
+	float: right;
+}
+
+.sign-in {
+	margin-right: 10px;
+}
+
+input, textarea {
+	border: none !important;
+}
+
+
+
 /* Header */
 .top-bar {
 	position: fixed;
 	top: 0px;
 	width: 100%;
 	z-index: 99;
+	ul {
+		background: none;
+	}
+}
+
+nav {
+	li {
+		display: inline;
+		padding-right: 10px;
+	}
+	a, a:hover, a:focus {
+		font-style: normal;
+		font-weight: 700;
+	}
+	.row {
+		background-color: rgba(255,255,255,0);
+	}
+}
+
+.panel {
+	margin-bottom: 10px;
+	background-color: rgba(255, 255, 255, 0.6);
+	p {
+		margin: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 }
 
 
 /* MAIN SECTION */
 .main-section {
 	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+.post {
+	background: grey;
+	margin-bottom: 20px;
+	padding: 20px;
+	max-width: 980px;
+}
+
+.italics {
+	font-style: italic;
 }
 
 /* FOOTER */

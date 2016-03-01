@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Restricted Area"
+AuthUserFile \xampp\htdocs\myPHP\admin\.htpasswd
+require valid-user
